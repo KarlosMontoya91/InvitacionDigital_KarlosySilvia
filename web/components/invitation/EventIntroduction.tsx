@@ -6,13 +6,13 @@ export default function EventIntroduction() {
   return (
     <section className="story-section min-h-[80dvh] bg-background text-text py-20 px-6 flex flex-col items-center justify-center relative overflow-hidden">
       <div className="absolute top-0 left-0 w-64 h-auto opacity-20 pointer-events-none -translate-x-1/4 -translate-y-1/4 rotate-12">
-        <Image src="/imagenes/floral-left-tall.png" alt="Floral decoration" width={300} height={600} className="object-contain" />
+        <Image src="/InvitacionDigital_KarlosySilvia/imagenes/floral-left-tall.png" alt="Floral decoration" width={300} height={600} className="object-contain" />
       </div>
       
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="relative w-64 h-80 md:w-80 md:h-[30rem] rounded-t-full overflow-hidden shadow-2xl border-4 border-amber-100">
           <Image
-            src="/imagenes/couple-closeup-editorial.webp"
+            src="/InvitacionDigital_KarlosySilvia/imagenes/couple-closeup-editorial.webp"
             alt="Silvia y Karlos 20 Años"
             fill
             className="object-cover"

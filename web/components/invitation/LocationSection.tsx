@@ -12,7 +12,7 @@ export default function LocationSection({
     <section className="story-section min-h-[70dvh] relative flex items-center justify-center p-6 text-text overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/imagenes/scene-location-mobile.webp"
+          src="/InvitacionDigital_KarlosySilvia/imagenes/scene-location-mobile.webp"
           alt="Location background"
           fill
           className="object-cover"

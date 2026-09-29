@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Gallery() {
   const images = [
-    "/imagenes/couple-halfbody-romantic.webp",
-    "/imagenes/scene-romantic-garden-desktop.webp",
-    "/imagenes/scene-story-mobile.webp",
+    "/InvitacionDigital_KarlosySilvia/imagenes/couple-halfbody-romantic.webp",
+    "/InvitacionDigital_KarlosySilvia/imagenes/scene-romantic-garden-desktop.webp",
+    "/InvitacionDigital_KarlosySilvia/imagenes/scene-story-mobile.webp",
   ];
 
   return (

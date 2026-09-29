@@ -7,7 +7,7 @@ export default function FinalScene() {
     <section className="story-section h-[100dvh] relative flex items-center justify-center p-6 text-white text-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/imagenes/scene-final-mobile.webp"
+          src="/InvitacionDigital_KarlosySilvia/imagenes/scene-final-mobile.webp"
           alt="Final Scene"
           fill
           className="object-cover"
@@ -17,7 +17,7 @@ export default function FinalScene() {
 
       <div className="absolute inset-0 opacity-80 mix-blend-screen pointer-events-none">
         <Image
-          src="/imagenes/warm-string-lights.png"
+          src="/InvitacionDigital_KarlosySilvia/imagenes/warm-string-lights.png"
           alt="Lights"
           fill
           className="object-cover"

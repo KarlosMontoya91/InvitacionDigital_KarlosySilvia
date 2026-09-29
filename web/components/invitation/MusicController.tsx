@@ -8,7 +8,7 @@ export default function MusicController({ isPlaying: initialPlaying = false }: {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio("/audio/background-music.mp3");
+    audioRef.current = new Audio("/InvitacionDigital_KarlosySilvia/audio/background-music.mp3");
     audioRef.current.loop = true;
     
     if (initialPlaying) {

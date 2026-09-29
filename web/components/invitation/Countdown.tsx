@@ -27,7 +27,7 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
   return (
     <section className="story-section py-24 relative overflow-hidden flex flex-col items-center justify-center min-h-[60dvh]">
       <div className="absolute inset-0">
-        <Image src="/imagenes/scene-countdown-mobile.webp" alt="Countdown background" fill className="object-cover" />
+        <Image src="/InvitacionDigital_KarlosySilvia/imagenes/scene-countdown-mobile.webp" alt="Countdown background" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50" />
       </div>
       <div className="relative z-10 w-full">

@@ -41,14 +41,14 @@ export default function HeroScene({ names, date }: { names: string, date: string
     <section ref={heroRef} className="relative h-[100dvh] w-full flex items-center justify-center overflow-hidden story-section">
       <div ref={bgRef} className="absolute inset-0 w-full h-[120%] -top-[10%]">
         <Image
-          src="/imagenes/hero-main-mobile.webp"
+          src="/InvitacionDigital_KarlosySilvia/imagenes/hero-main-mobile.webp"
           alt="Silvia y Karlos"
           fill
           className="object-cover md:hidden"
           priority
         />
         <Image
-          src="/imagenes/hero-main-desktop.webp"
+          src="/InvitacionDigital_KarlosySilvia/imagenes/hero-main-desktop.webp"
           alt="Silvia y Karlos"
           fill
           className="object-cover hidden md:block"
@@ -58,7 +58,7 @@ export default function HeroScene({ names, date }: { names: string, date: string
       </div>
       
       <div className="absolute inset-0 opacity-50 mix-blend-overlay">
-        <Image src="/imagenes/gold-bokeh-overlay.jpeg" alt="overlay" fill className="object-cover" />
+        <Image src="/InvitacionDigital_KarlosySilvia/imagenes/gold-bokeh-overlay.jpeg" alt="overlay" fill className="object-cover" />
       </div>
 
       <div ref={textRef} className="relative z-10 text-center text-white p-6">

@@ -29,14 +29,14 @@ export default function InvitationLoader({
         >
           <div className="absolute inset-0">
             <div className="relative w-full h-full md:hidden">
-              <Image src="/imagenes/hero-main-mobile.webp" alt="background" fill className="object-cover" />
+              <Image src="/InvitacionDigital_KarlosySilvia/imagenes/hero-main-mobile.webp" alt="background" fill className="object-cover" />
             </div>
             <div className="relative w-full h-full hidden md:block">
-              <Image src="/imagenes/hero-main-desktop.webp" alt="background" fill className="object-cover" />
+              <Image src="/InvitacionDigital_KarlosySilvia/imagenes/hero-main-desktop.webp" alt="background" fill className="object-cover" />
             </div>
             <div className="absolute inset-0 bg-black/60" />
             <div className="absolute inset-0 opacity-30 mix-blend-overlay">
-              <Image src="/imagenes/gold-bokeh-overlay.jpeg" alt="overlay" fill className="object-cover" />
+              <Image src="/InvitacionDigital_KarlosySilvia/imagenes/gold-bokeh-overlay.jpeg" alt="overlay" fill className="object-cover" />
             </div>
           </div>
           <motion.div
